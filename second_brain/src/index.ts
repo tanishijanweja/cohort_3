@@ -86,5 +86,4 @@ app.delete("/api/v1/content", userMiddleware, async (req, res) => {
 });
 app.post("/api/brain/share", (req, res) => {});
 app.post("/api/brain/:shareLink", (req, res) => {});
-
 app.listen(3000);
